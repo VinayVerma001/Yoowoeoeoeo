@@ -61,7 +61,7 @@ app.use("/catchup", catchulRoute);
 
 app.use(handler);
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT, () => {
     console.log("===================================================================");
     console.log(chalk.green("THIS SERVER IS 100% FREE. PLEASE DON'T PAY ANYONE."));
     console.log(chalk.green("STRICT ACTION WILL BE TAKEN AGAINST THOSE WHO ARE SELLING THIS."));
